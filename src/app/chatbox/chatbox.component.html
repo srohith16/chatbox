@@ -1,0 +1,66 @@
+<div class="container">
+
+  <div class="main-message">
+    <div>
+      <p>
+        < Intercom</p> </div> <p> We help your business grow by connecting you to your customers.
+      </p>
+      <div class="row">
+        <div class="column">
+          <figure>
+            <img class="rounded-circle fit-image" src="/assets/swathi.jpg" alt="swathi" />
+            <figcaption>Swathi</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure>
+            <img class="rounded-circle fit-image" src="/assets/Vennela.jpg" alt="Vennela" />
+            <figcaption>Vennela</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure>
+            <img class="rounded-circle fit-image" src="/assets/angelinajpg.jpg" alt="angelinajpg" />
+            <figcaption>Angelina</figcaption>
+          </figure>
+        </div>
+      </div>
+      <!-- <p class="bottom-message"> The team typically replies in a few hours.</p> -->
+
+    </div>
+    <div class="input-bottom">
+    <div class="main-text">
+      <div >
+        <h6 class="text-right"> {{this.user1}}
+        </h6>
+        <div  *ngFor="let temp of temp1">
+          <div>
+            <h6 class="text-left"> {{this.temp}}
+            </h6>
+          </div>
+        </div>
+
+        <div >
+          <h6 class="text-right"> {{this.user2}}
+          </h6>
+          <div  *ngFor="let tempp of temp2">
+            <div>
+              <h6 class="text-left"> {{this.tempp}}
+              </h6>
+            </div>
+            
+          </div>
+        </div>      
+      </div>
+          </div>
+          <div class="inside-para">
+              <p> <img class="small-image3" src="/assets/Smile-Icon.png" alt="Smile-Icon"> We run on Intercom</p>
+            </div>
+          <div>
+            <input class="input-group mb-3 input" type="text" (keyup.enter)="chatbox(id.value)" #id placeholder="write a reply...">
+            <img (click)="gifMethod()" class="small-image" src="/assets/gif.png" alt="download">&nbsp;
+            <img (click)= "smileMethod()" class="small-image1" src="/assets/smile.png" alt="smile">&nbsp;
+            <img (click)="attachMethod()" class="small-image2" src="/assets/attach.png" alt="attach">
+          </div>
+        </div>
+      

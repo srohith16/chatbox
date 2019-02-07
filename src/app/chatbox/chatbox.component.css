@@ -1,0 +1,132 @@
+.container{
+    width: 21.5%;
+    height: 500%;
+
+    
+}
+.main-message {
+    margin-top: 20px;
+    width: 300px;
+    height: 180px;
+    color: white;
+    padding-left: 50px;
+    padding-top:5px;
+
+    border: 1px solid blue; 
+    background-color: blue;
+    position: relative;
+    font-size: 12px;
+    
+  }
+  .bottom-message{
+      padding-bottom: 800px;
+      height: 250px;
+      float: bottom;
+  }
+
+  .input{
+
+      width: 19.5%;
+      position: fixed;
+      /* position: absolute; */
+      
+     
+      /* background: url(/assets/download.png) no-repeat scroll 7px 7px;
+      background-position: 1px 1px;
+      border: 0;
+    background: #ebebeb;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 1px; */
+    
+  }
+.text-right{
+    color: black;
+    /* height: 100%; */
+
+    margin-right: 30px;
+    margin-bottom: 20px;
+/* 
+    text-align: right; */
+}
+.text-left{
+    margin-left: 20px;
+}
+.main-text{
+    border: 1px solid;
+    height: 300px;
+    padding-top: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fit-image{
+    width: 50px;
+    height:50px;
+    display: flex;
+}
+
+figure{
+    margin: 5px;
+    position: absolute;
+    text-align: center;
+}
+
+figcaption{
+  
+    position: relative;  
+
+}
+
+.row ::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+.small-image{
+    position: relative;
+    left: 200px;
+    bottom:1px;
+    right:5px;
+    width:25px;
+    height:25px;
+}
+.small-image1{
+    position: relative;
+    left: 200px;
+    bottom:1px;
+    right:5px;
+    width:20px;
+    height:20px;
+}
+.small-image2{
+    position: relative;
+    left: 200px;
+    bottom:1px;
+    right:5px;
+    width:20px;
+    height:20px;
+}
+
+/* .input-bottom{
+    
+} */
+.inside-para{
+    position: fixed;
+    margin-left: 70px;
+    margin-top: -30px;
+    color:#998b8b;
+}
+.small-image3{
+
+    left: 0px;
+    bottom:1px;
+    right:0px;
+    width:20px;
+    height:20px;
+}
